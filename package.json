@@ -1,0 +1,23 @@
+{
+  "name": "mixify",
+  "version": "1.0.0",
+  "description": "A social audio mixing platform for creating ad-libbed soundtracks",
+  "type": "module",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "cd backend && node server.js",
+    "dev": "cd backend && nodemon server.js",
+    "build": "npm install && cd frontend && npm run build",
+    "setup": "npm install && cd backend && npm install && cd ../frontend && npm install"
+  },
+  "keywords": [
+    "audio",
+    "mixer",
+    "mixing",
+    "vocal",
+    "backing-track",
+    "karaoke"
+  ],
+  "author": "",
+  "license": "ISC"
+}
